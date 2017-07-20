@@ -1,0 +1,11 @@
+.required {
+	color: red;
+}
+input: valid,
+input: valid:focus {
+	border: 3px solid #green;
+}
+
+input:invalid {
+	border: 3px solid #red;
+}
